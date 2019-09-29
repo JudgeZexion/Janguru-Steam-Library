@@ -1,0 +1,129 @@
+:root {
+    --Mainbackground: #171717;
+    --Brighterbackground: #252525;
+    --Transparentbackground: #171717b5;
+    --Transparentbackground2: #171717cf;
+    --MainAccent: #e69d29;
+}
+
+
+/* Games List */
+.gamelistbar_Container_3x1Hk {
+	background-color: var(--Mainbackground);
+}
+/* Divider */
+.library_LibraryWindowDivider_276E6 {
+    display: none;
+}
+
+/* Steam Library */
+
+/* What's New */
+.libraryhome_UpdatesContainer_17uEB {
+    background: var(--Mainbackground);
+}
+.libraryhomenewupdates_GameIconAndName_3_xMy {
+    background-color: var(--Mainbackground);
+}
+.libraryhomenewupdates_GameIconAndName_3_xMy .libraryhomenewupdates_GameName_28Iqr {
+    color: #fffc;
+}
+
+/* News Hover */
+.libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF:hover .libraryhomenewupdates_EventSummaryContainer_3Rb_j {
+    background-color: #17171770;
+}
+.libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF:hover .libraryhomenewupdates_EventSummaryContainer_3Rb_j .libraryhomenewupdates_EventSummaryType_1vIly {
+    color: var(--MainAccent);
+}
+
+/* All Games */
+.libraryhome_Container_2gSXC {
+    background: var(--Mainbackground);
+}
+
+/* Shine on Cover Arts */
+.appportrait_LibraryItemBoxShine_MyNb5 {
+    display: none;
+}
+
+/* Game Selected screen */
+.appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
+    background-color: var(--Transparentbackground2) !important;
+}
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
+    display:none;
+}
+
+/* Game Details Background */
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
+    background: linear-gradient(to bottom, #171717cf 0%, transparent 96%);
+}
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
+    background: linear-gradient(to bottom, #00000000 0%, #171717b5 5%);
+}
+.appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1, .appdetailsplaysection_PlayBar_3fLo1 {
+    background: none;
+}
+
+.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+    border:none;
+    background: radial-gradient(100% 80% at 64% 95%, #7b7b7b17 0%, #25252580 20%, #17171780 100%);
+}
+.appdetailssection_Highlight_38t1m {
+    background: none;
+    box-shadow: none;
+}
+/* "Say Something about this game to your friends..." */
+.posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
+    background: transparent;
+}
+
+/* Activity Feed */
+.appactivityday_PartnerEvent_1AYE1 {
+    border: none;
+    background: radial-gradient(100% 80% at 64% 95%, #25252580 20%,#17171780 100%);
+}
+.appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+    background: radial-gradient(100% 80% at 64% 95%, #25252580 20%,#17171780 100%);
+}
+.appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+    background: radial-gradient(100% 80% at 64% 95%, #25252580 0%, #25252580 20%, #17171780 100%);
+}
+.comment_thread_ActivityCommentThread_39nna {
+    background: radial-gradient(100% 80% at 64% 95%, #17171780 1%, #17171780 20%, #25252580 100%);
+}
+
+/* Community Feed */
+.appdetailscommunityfeed_HeaderStyles_2lNdD {
+    background: radial-gradient(circle at 0% 20%, #c2a35e00 0%, #27252200 20%), linear-gradient(to bottom, #e69d29f2 0%, #79685524 2px, #79705514 50%, #27252200 100%);
+}
+.appdetailscommunityfeed_CommunityItem_3QS6O {
+    background-color: none;
+    background: linear-gradient(to bottom, #252522 0%, #171717 40%);
+}
+.appdetailscommunityfeed_AuthorSection_1ul9Z {
+    background: #171717;
+}
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {
+    background: transparent;
+}
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_GuideTitle_23Pup {
+    color: white;
+}
+/* Search Bar */
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
+    background: var(--Brighterbackground);
+}
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
+    background: var(--Brighterbackground);
+}
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
+    background-color: var(--Brighterbackground);
+}
+
+/* Collections Screen */
+.collectionview_OuterContainer_2sNr7 {
+    background: radial-gradient(100% 100% at 33% 45%, #171717 0%, #101314 100%);
+}
